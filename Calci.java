@@ -1,4 +1,4 @@
-public interface Cacli{
+public interface Calci{
  public int getSum(int n1,int n2);
  public int getDiff(int n1, int n2);
  public int getProduct(int n1, int n2);
