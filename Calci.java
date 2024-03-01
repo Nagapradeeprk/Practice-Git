@@ -14,3 +14,11 @@ class CalciImpl implements Calci{
         return n1*n2;
     }
 }
+class DriverClass{
+    public static void main(String[] args) {
+        CalciImpl c = new CalciImpl();
+        System.out.println(c.getSum(25, 25));
+        System.out.println(c.getDiff(100, 25));
+        System.out.println(c.getProduct(25, 25));
+    }
+}
